@@ -62,8 +62,7 @@ static void vLEDTask0(void *pvParameters) {
 	bool LedState = false;
 
 	while (1) {
-		Board_LED_Set(1, true);
-		Board_LED_Set(2, true);
+		
 
 		Board_LED_Set(0, LedState);
 		vTaskDelay(configTICK_RATE_HZ);
@@ -84,8 +83,7 @@ static void vLEDTask1(void *pvParameters) {
 	bool LedState = false;
 
 	while (1) {
-		Board_LED_Set(0, true);
-		Board_LED_Set(2, true);
+		
 
 		Board_LED_Set(1, LedState);
 		vTaskDelay(configTICK_RATE_HZ);
@@ -102,8 +100,7 @@ static void vLEDTask2(void *pvParameters) {
 	bool LedState = false;
 
 	while (1) {
-		Board_LED_Set(0, true);
-		Board_LED_Set(1, true);
+		
 
 		Board_LED_Set(2, LedState);
 
