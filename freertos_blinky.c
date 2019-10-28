@@ -1,7 +1,7 @@
 /*
  * 
  *
- * @note
+ * @noe
  * Copyright(C) NXP Semiconductors, 2014
  * All rights reserved.
  *
