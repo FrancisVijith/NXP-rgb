@@ -67,7 +67,7 @@ static void vLEDTask0(void *pvParameters) {
 
 		Board_LED_Set(0, LedState);
 		vTaskDelay(configTICK_RATE_HZ);
-		vTaskDelay(configTICK_RATE_HZ);
+		
 		vTaskDelay(configTICK_RATE_HZ);
 		vTaskDelay(configTICK_RATE_HZ);
 		Board_LED_Set(0, !LedState);
