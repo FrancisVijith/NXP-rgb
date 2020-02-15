@@ -46,7 +46,7 @@
  * Private functions
  ****************************************************************************/
 
-/* Sets up system hardware */
+
 static void prvSetupHardware(void)
 {
 	SystemCoreClockUpdate();
