@@ -33,7 +33,7 @@ to blink RGB in NXP using MCUxpresso
 
 #include "board.h"
 #include "FreeRTOS.h"
-#include "task.h"
+
 
 /*****************************************************************************
  * Private types/enumerations/variables
